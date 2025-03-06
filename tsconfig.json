@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2023"],
+        "module": "node16",
+        "target": "ES2023",
+        "outDir": "dist"
+    },
+    "extends": "@tsconfig/node20/tsconfig.json",
+    "exclude": [],
+    "include": ["src/**/*"]
+}
